@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #000000;
+}
+
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app_header > h1 {
+  font-size: 2.3rem;
+}
+.app_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 72px;
+  background: linear-gradient(to right, #f79d00, #64f38c); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Dropdown worldwide */
+
+.app_dropdown{
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.app_dropdownItem{
+  background: linear-gradient(to right, #cb49e6, #7e20f8);
+  overflow-y: scroll;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background: linear-gradient(to right, #7e20f8, #cb49e6) !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+  background: linear-gradient(to right, #7e20f8, #cb49e6) !important;
+}
+
+.app_left{
+  flex: 0.9;
+}
+.app_right{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #00ffaa, #3dd4b9);
+}
+.app_stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.app_right .MuiCardContent-root{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+.app_graphTitle{
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.app_graph{
+  flex-grow: 1;
+}
+
+
+
+.app_Tabletitle{
+  font-size: 1.3rem;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+@media (max-width : 990px){
+  .app{
+    flex-direction: column;
+  }
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.37); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(9, 28, 54, 0.678); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff2a; 
+}
+
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0
+}

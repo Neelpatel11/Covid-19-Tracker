@@ -1,0 +1,28 @@
+.table{
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd){
+    background: linear-gradient(to right, #0d9bfa, #317fc7de);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.table tr:nth-of-type(even){
+    background: linear-gradient(to right, #5d0ef0ab, #6c2de0d2);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+/* .table tr:nth-of-type(even){
+    background-color: rgba(20, 16, 16, 0.329);
+} */

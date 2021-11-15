@@ -1,0 +1,46 @@
+{
+  "name": "covid-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.1.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "chart.js": "^3.6.0",
+    "clsx": "^1.1.1",
+    "hex": "^0.1.0",
+    "leaflet": "^1.7.1",
+    "numeral": "^2.0.6",
+    "particlesjs": "^2.2.3",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.3.0",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.2",
+    "react-leaflet-draw": "^0.19.8",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "react-tsparticles": "^1.37.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
