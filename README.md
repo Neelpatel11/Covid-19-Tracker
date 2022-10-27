@@ -16,9 +16,9 @@ The dashboard has a simple interface and can prove handy for those who wish to g
 ## Technology stack
 
 ReactJS functional component <br>
-React Hooks <br>
-Chart JS <br>
-Particle JS <br>
-leaflet map <br>
-Material Ui <br>
-Css3 <br>
+→ React Hooks <br>
+→ Chart JS <br>
+→ Particle JS <br>
+→ leaflet map <br>
+→ Material Ui <br>
+→ Css3 <br>
