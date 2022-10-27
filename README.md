@@ -1,7 +1,7 @@
 # Covid-19-Tracker
 
 ### Live Demo
-website link:-https://covid-19-tracker-neelpatel.web.app/
+website link (deployed in firebase):-https://covid-19-tracker-neelpatel.web.app/
 
 ## Description
 
