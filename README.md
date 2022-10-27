@@ -1,4 +1,4 @@
-## Covid-19-Tracker
+# Covid-19-Tracker
 
 A dashboard for coivd-19 data. Consists of map showing data according to number of cases in particular country. Using React j.s.
 website link:-https://covid-19-tracker-neelpatel.web.app/
@@ -13,12 +13,12 @@ During the covid times, there was a surplus of all information related to Corona
 
 The dashboard has a simple interface and can prove handy for those who wish to get the current data and can be utilized to extend it to other diseases and health-related information.
 
-# Technology stack
+## Technology stack
 
-ReactJS functional component 
-React Hooks
-Chart JS
-Particle JS 
-leaflet map 
-Material Ui
-Css3 
+ReactJS functional component <br>
+React Hooks <br>
+Chart JS <br>
+Particle JS <br>
+leaflet map <br>
+Material Ui <br>
+Css3 <br>
