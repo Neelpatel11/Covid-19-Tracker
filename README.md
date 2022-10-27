@@ -3,7 +3,7 @@
 A dashboard for coivd-19 data. Consists of map showing data according to number of cases in particular country. Using React j.s.
 website link:-https://covid-19-tracker-neelpatel.web.app/
 
-<b>description<b/>
+# Description
 
 The web application serves many purposes to track the current corona cases worldwide. Using the Leaflet Library, the map displays the cases, recovered, and death in each country allowing the user to choose countries from a drop-down menu and hover over the countries for detailed information.
 
@@ -12,3 +12,13 @@ There is also a graph presented that shows the number of active cases versus the
 During the covid times, there was a surplus of all information related to Corona cases and it was difficult to get the present data easily. 
 
 The dashboard has a simple interface and can prove handy for those who wish to get the current data and can be utilized to extend it to other diseases and health-related information.
+
+# Technology stack
+
+ReactJS functional component 
+React Hooks
+Chart JS
+Particle JS 
+leaflet map 
+Material Ui
+Css3 
