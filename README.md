@@ -22,3 +22,13 @@ ReactJS functional component <br>
 → leaflet map <br>
 → Material Ui <br>
 → Css3 <br>
+
+## For Installation
+
+Step 1 :- `git clone https://github.com/Neelpatel11/Covid-19-Tracker`
+
+Step 2 :- `cd Covid-19-Tracker`
+
+Step 3 :- `npm Install`
+
+Step 4 :- `npm start`
